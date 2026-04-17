@@ -1,5 +1,6 @@
+// @ts-ignore
 import axios from 'axios'
 
 export const apiClient = axios.create({
-  baseURL: 'https://fake-json-api.mock.beeceptor.com/'
+  baseURL: 'http://localhost:8080/api/v1'
 })
